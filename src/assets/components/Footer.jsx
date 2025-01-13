@@ -50,7 +50,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-6">
-              <img className="footerLogo" src="/img/dc-logo-bg.png" alt="logo" />
+              <div className="background">
+              </div>
             </div>
           </div>
         </div>
