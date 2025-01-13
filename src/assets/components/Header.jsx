@@ -4,7 +4,7 @@ const Header = () => {
       <div className="container-md">
         <div className="row">
           <div className="col-3 py-4">
-          <img className="w-25" src="src/assets/img/dc-logo.png" alt="logo" />
+          <img className="w-25" src="/img/dc-logo.png" alt="logo" />
           </div>
           <div className="col-9 py-4 align-content-center">
           <ul className="list-unstyled d-flex gap-5">

@@ -39,6 +39,10 @@ header ul li a:hover {
   min-height: 200px;
 }
 
+.shop {
+  height: 100%;
+}
+
 .shop a {
   color: white;
   text-transform: uppercase;
@@ -49,4 +53,39 @@ header ul li a:hover {
 .shop img {
   width: 60px;
   height: 75px;
+}
+
+/* Footer */
+
+.footerTop {
+  background-image: url(/public/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+footer h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-weight: 200;
+  line-height: 10px;
+  padding: 0;
+}
+
+.footerBottom {
+  background-color: #303030;
+  min-height: 100px;
+}
+
+.follow {
+  color: #0182f9;
 }
