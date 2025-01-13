@@ -21,8 +21,13 @@ header ul li a {
   font-weight: bold;
 }
 
-header ul li a.active,
-header ul li a:hover {
+header ul li a.active {
+  color: #0182f9;
+  padding-bottom: 58px;
+  border-bottom: 5px solid blue;
+}
+
+header ul a:hover {
   color: #0182f9;
 }
 
@@ -62,6 +67,13 @@ header ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
+}
+
+.background {
+  background-image: url(/img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  height: 91%;
 }
 
 footer h4 {
