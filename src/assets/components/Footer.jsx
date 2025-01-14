@@ -1,4 +1,4 @@
-import { footerDcComics, footerShop } from "../../../data/comicsData"
+import { footerDC, footerDcComics, footerShop, footerSites } from "../../../data/comicsData"
 
 const Footer = (props) => {
 
@@ -31,27 +31,21 @@ const Footer = (props) => {
               <div className="mx-5">
                 <h4 className="py-2">DC</h4>
                 <ul>
-                  <li><a href="#">Terms Of Use</a></li>
-                  <li><a href="#">Privacy policy</a></li>
-                  <li><a href="#">Ad Choices</a></li>
-                  <li><a href="#">Advertising</a></li>
-                  <li><a href="#">Jobs</a></li>
-                  <li><a href="#">Subscriptions</a></li>
-                  <li><a href="#">Talent Workshops</a></li>
-                  <li><a href="#">CPSC Certificates</a></li>
-                  <li><a href="#">Ratings</a></li>
-                  <li><a href="#">Shop Help</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  {footerDC.map(item => (
+                    <li key={`fdc-${item.id}`}>
+                      <a href={item.url}>{item.name}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <div>
                 <h4 className="py-2">sites</h4>
                 <ul>
-                  <li><a href="#">DC</a></li>
-                  <li><a href="#">MAD Magazine</a></li>
-                  <li><a href="#">DC Kids</a></li>
-                  <li><a href="#">DC Universe</a></li>
-                  <li><a href="#">DC Power Visa</a></li>
+                {footerSites.map(item => (
+                    <li key={`fsi-${item.id}`}>
+                      <a href={item.url}>{item.name}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
