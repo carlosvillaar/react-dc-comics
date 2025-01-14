@@ -12,7 +12,7 @@ const Header = (props) => {
           <nav className="col-9 py-4 align-content-center">
             <ul className="list-unstyled d-flex gap-5">
               {headerLinks.map(item => (
-                <li key={item.id}>
+                <li key={`hnav-${item.id}`}>
                   <a className={item.classname} href={item.url}>{item.name}</a>
                 </li>
               ))}

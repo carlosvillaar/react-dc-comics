@@ -1,4 +1,4 @@
-import { footerDcComics } from "../../../data/comicsData"
+import { footerDcComics, footerShop } from "../../../data/comicsData"
 
 const Footer = (props) => {
 
@@ -14,15 +14,18 @@ const Footer = (props) => {
                 <h4 className="py-2">dc comics</h4>
                 <ul>
                   {footerDcComics.map(item => (
-                    <li key={'fdc${item.id}'}>
+                    <li key={`fdc-${item.id}`}>
                       <a href={item.url}>{item.name}</a>
                     </li>
                   ))}
                 </ul>
                 <h4 className="py-2">shop</h4>
                 <ul>
-                  <li><a href="#">Shop DC</a></li>
-                  <li><a href="#">Shop DC Collectibles</a></li>
+                  {footerShop.map(item => (
+                    <li key={`fs-${item.id}`}>
+                      <a href={item.url}>{item.name}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <div className="mx-5">
