@@ -25,15 +25,3 @@ const Header = (props) => {
 }
 
 export default Header
-
-/*<li><a href="#">Characters</a></li>
-              <li><a className="active" href="#">Comics</a></li>
-              <li><a href="#">Movies</a></li>
-              <li><a href="#">TV</a></li>
-              <li><a href="#">games</a></li>
-              <li><a href="#">collectibles</a></li>
-              <li><a href="#">videos</a></li>
-              <li><a href="#">fans</a></li>
-              <li><a href="#">news</a></li>
-              <li><a href="#">shop</a></li>
-              */
