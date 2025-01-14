@@ -11,6 +11,18 @@ const headerLinks = [
   { id: 10, url: "#", name: "SHOP"}
  ];
 
+const footerDcComics = [
+  { id: 1, url: "#", name: "CHARACTERS"},
+  { id: 2, url: "#", name: "COMICS",},
+  { id: 3, url: "#", name: "MOVIES"},
+  { id: 4, url: "#", name: "TV"},
+  { id: 5, url: "#", name: "GAMES"},
+  { id: 6, url: "#", name: "COLLECTIBLES"},
+  { id: 7, url: "#", name: "VIDEOS"},
+  { id: 8, url: "#", name: "FANS"},
+  { id: 9, url: "#", name: "NEWS"}
+]
+
 const footerShop = [
   {id: 1, url: "#", text:"Shop DC"},
   {id: 2, url: "#", text:"Shop DC Collectibles"}
