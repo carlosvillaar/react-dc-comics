@@ -52,6 +52,7 @@ const footerSites = [
 
 export {
   headerLinks,
+  footerDcComics,
   footerShop,
   footerDC,
   footerSites
