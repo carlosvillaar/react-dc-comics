@@ -1,7 +1,7 @@
 import Header from "./assets/components/Header";
 import Main from "./assets/components/Main";
 import Footer from "./assets/components/Footer";
-import {headerLinks, footerShop, footerDC, footerSites} from "../data/comicsData";
+import {headerLinks, footerDcComics, footerShop, footerDC, footerSites} from "../data/comicsData";
 
 const App = () => {
 
@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Header headerLinks={headerLinks} />
       <Main />
-      <Footer />
+      <Footer footerMenus={footerDcComics, footerShop, footerDC, footerSites} />
     </>
   )
 }

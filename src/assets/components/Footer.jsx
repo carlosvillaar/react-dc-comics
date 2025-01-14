@@ -1,4 +1,9 @@
-const Footer = () => {
+import { footerDcComics } from "../../../data/comicsData"
+
+const Footer = (props) => {
+
+  const {footerMenus} = props
+
   return (
     <footer>
       <section className="footerTop">
@@ -8,13 +13,11 @@ const Footer = () => {
               <div>
                 <h4 className="py-2">dc comics</h4>
                 <ul>
-                  <li><a href="#">Characters</a></li>
-                  <li><a href="#">Comics</a></li>
-                  <li><a href="#">Movies</a></li>
-                  <li><a href="#">TV</a></li>
-                  <li><a href="#">Games</a></li>
-                  <li><a href="#">Videos</a></li>
-                  <li><a href="#">News</a></li>
+                  {footerDcComics.map(item => (
+                    <li key={'fdc${item.id}'}>
+                      <a href={item.url}>{item.name}</a>
+                    </li>
+                  ))}
                 </ul>
                 <h4 className="py-2">shop</h4>
                 <ul>
@@ -80,3 +83,11 @@ const Footer = () => {
 }
 
 export default Footer
+
+/*<li><a href="#">Characters</a></li>
+                  <li><a href="#">Comics</a></li>
+                  <li><a href="#">Movies</a></li>
+                  <li><a href="#">TV</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li><a href="#">News</a></li> */
