@@ -1,6 +1,6 @@
 const headerLinks = [
   { id: 1, url: "#", name: "CHARACTERS"},
-  { id: 2, url: "#", name: "COMICS"},
+  { id: 2, url: "#", name: "COMICS", classname: "active"},
   { id: 3, url: "#", name: "MOVIES"},
   { id: 4, url: "#", name: "TV"},
   { id: 5, url: "#", name: "GAMES"},
