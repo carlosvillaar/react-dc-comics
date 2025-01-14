@@ -1,4 +1,4 @@
-const HeaderLinks = [
+const headerLinks = [
   { id: 1, url: "#", name: "CHARACTERS"},
   { id: 2, url: "#", name: "COMICS"},
   { id: 3, url: "#", name: "MOVIES"},
@@ -38,3 +38,9 @@ const footerSites = [
  { id: 5, url: "#", text: "DC Power Visa" }
 ];
 
+export {
+  headerLinks,
+  footerShop,
+  footerDC,
+  footerSites
+}
