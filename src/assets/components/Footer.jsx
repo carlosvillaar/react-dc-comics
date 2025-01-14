@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="container-md">
         <div className="row">
           <div className="col-6">
-          <button type="button" class="btn btn-lg btn-outline-primary text-light">SIGN-UP NOW!</button>
+          <button type="button" className="btn btn-lg btn-outline-primary text-light">SIGN-UP NOW!</button>
           </div>
           <div className="col-6 py-1 d-flex align-content-center justify-content-end">
             <h4 className="follow px-4 py-1">follow us</h4>
