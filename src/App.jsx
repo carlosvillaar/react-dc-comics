@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Header headerLinks={headerLinks} />
       <Main />
-      <Footer footerMenus={footerDcComics, footerShop, footerDC, footerSites} />
+      <Footer footerMenus={{footerDcComics, footerShop, footerDC, footerSites}} />
     </>
   )
 }
