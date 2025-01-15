@@ -1,31 +1,31 @@
 const headerLinks = [
-  { id: 1, url: "#", name: "CHARACTERS"},
-  { id: 2, url: "#", name: "COMICS", classname: "active"},
-  { id: 3, url: "#", name: "MOVIES"},
-  { id: 4, url: "#", name: "TV"},
-  { id: 5, url: "#", name: "GAMES"},
-  { id: 6, url: "#", name: "COLLECTIBLES"},
-  { id: 7, url: "#", name: "VIDEOS"},
-  { id: 8, url: "#", name: "FANS"},
-  { id: 9, url: "#", name: "NEWS"},
-  { id: 10, url: "#", name: "SHOP"}
- ];
+  { id: 1, url: "#", name: "CHARACTERS" },
+  { id: 2, url: "#", name: "COMICS", classname: "active" },
+  { id: 3, url: "#", name: "MOVIES" },
+  { id: 4, url: "#", name: "TV" },
+  { id: 5, url: "#", name: "GAMES" },
+  { id: 6, url: "#", name: "COLLECTIBLES" },
+  { id: 7, url: "#", name: "VIDEOS" },
+  { id: 8, url: "#", name: "FANS" },
+  { id: 9, url: "#", name: "NEWS" },
+  { id: 10, url: "#", name: "SHOP" }
+];
 
 const footerDcComics = [
-  { id: 1, url: "#", name: "CHARACTERS"},
-  { id: 2, url: "#", name: "COMICS",},
-  { id: 3, url: "#", name: "MOVIES"},
-  { id: 4, url: "#", name: "TV"},
-  { id: 5, url: "#", name: "GAMES"},
-  { id: 6, url: "#", name: "COLLECTIBLES"},
-  { id: 7, url: "#", name: "VIDEOS"},
-  { id: 8, url: "#", name: "FANS"},
-  { id: 9, url: "#", name: "NEWS"}
+  { id: 1, url: "#", name: "CHARACTERS" },
+  { id: 2, url: "#", name: "COMICS", },
+  { id: 3, url: "#", name: "MOVIES" },
+  { id: 4, url: "#", name: "TV" },
+  { id: 5, url: "#", name: "GAMES" },
+  { id: 6, url: "#", name: "COLLECTIBLES" },
+  { id: 7, url: "#", name: "VIDEOS" },
+  { id: 8, url: "#", name: "FANS" },
+  { id: 9, url: "#", name: "NEWS" }
 ]
 
 const footerShop = [
-  {id: 1, url: "#", name:"Shop DC"},
-  {id: 2, url: "#", name:"Shop DC Collectibles"}
+  { id: 1, url: "#", name: "Shop DC" },
+  { id: 2, url: "#", name: "Shop DC Collectibles" }
 ]
 
 const footerDC = [
@@ -43,11 +43,11 @@ const footerDC = [
 ];
 
 const footerSites = [
- { id: 1, url: "#", name: "DC" },
- { id: 2, url: "#", name: "MAD Magazine" },
- { id: 3, url: "#", name: "DC Kids" },
- { id: 4, url: "#", name: "DC Universe" },
- { id: 5, url: "#", name: "DC Power Visa" }
+  { id: 1, url: "#", name: "DC" },
+  { id: 2, url: "#", name: "MAD Magazine" },
+  { id: 3, url: "#", name: "DC Kids" },
+  { id: 4, url: "#", name: "DC Universe" },
+  { id: 5, url: "#", name: "DC Power Visa" }
 ];
 
 export {

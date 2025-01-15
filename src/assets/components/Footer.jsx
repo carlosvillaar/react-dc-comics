@@ -2,7 +2,7 @@ import { footerDC, footerDcComics, footerShop, footerSites } from "../../../data
 
 const Footer = (props) => {
 
-  const {footerMenus} = props
+  const { footerMenus } = props
 
   return (
     <footer>
@@ -41,7 +41,7 @@ const Footer = (props) => {
               <div>
                 <h4 className="py-2">sites</h4>
                 <ul>
-                {footerSites.map(item => (
+                  {footerSites.map(item => (
                     <li key={`fsi-${item.id}`}>
                       <a href={item.url}>{item.name}</a>
                     </li>
@@ -58,21 +58,21 @@ const Footer = (props) => {
       </section>
       <section className="footerBottom align-content-center">
         <div className="container-md">
-        <div className="row">
-          <div className="col-6">
-          <button type="button" className="btn btn-lg btn-outline-primary text-light">SIGN-UP NOW!</button>
+          <div className="row">
+            <div className="col-6">
+              <button type="button" className="btn btn-lg btn-outline-primary text-light">SIGN-UP NOW!</button>
+            </div>
+            <div className="col-6 py-1 d-flex align-content-center justify-content-end">
+              <h4 className="follow px-4 py-1">follow us</h4>
+              <ul className="social d-flex list-unstyled gap-4">
+                <li><a href="#"><img src="/img/footer-facebook.png" alt="" /></a></li>
+                <li><a href="#"><img src="/img/footer-twitter.png" alt="" /></a></li>
+                <li><a href="#"><img src="/img/footer-youtube.png" alt="" /></a></li>
+                <li><a href="#"><img src="/img/footer-pinterest.png" alt="" /></a></li>
+                <li><a href="#"><img src="/img/footer-periscope.png" alt="" /></a></li>
+              </ul>
+            </div>
           </div>
-          <div className="col-6 py-1 d-flex align-content-center justify-content-end">
-            <h4 className="follow px-4 py-1">follow us</h4>
-            <ul className="social d-flex list-unstyled gap-4">
-              <li><a href="#"><img src="/img/footer-facebook.png" alt="" /></a></li>
-              <li><a href="#"><img src="/img/footer-twitter.png" alt="" /></a></li>
-              <li><a href="#"><img src="/img/footer-youtube.png" alt="" /></a></li>
-              <li><a href="#"><img src="/img/footer-pinterest.png" alt="" /></a></li>
-              <li><a href="#"><img src="/img/footer-periscope.png" alt="" /></a></li>
-            </ul>
-          </div>
-        </div>
         </div>
       </section>
     </footer>

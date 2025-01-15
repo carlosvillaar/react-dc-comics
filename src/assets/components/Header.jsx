@@ -1,13 +1,13 @@
 const Header = (props) => {
 
-  const {headerLinks} = props
+  const { headerLinks } = props
 
   return (
     <header>
       <div className="container-md">
         <div className="row">
           <div className="col-3 py-4">
-          <a href="#"><img className="w-25" src="/img/dc-logo.png" alt="logo" /></a>
+            <a href="#"><img className="w-25" src="/img/dc-logo.png" alt="logo" /></a>
           </div>
           <nav className="col-9 py-4 align-content-center">
             <ul className="list-unstyled d-flex gap-5">
