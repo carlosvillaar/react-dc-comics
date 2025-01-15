@@ -1,3 +1,5 @@
+/* Global */
+
 * {
   padding: 0;
   margin: 0;
@@ -13,22 +15,23 @@ body {
 }
 
 /* Header */
+
 header ul li a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.712);
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: bold;
-}
 
-header ul li a.active {
-  color: #0182f9;
-  padding-bottom: 58px;
-  border-bottom: 5px solid blue;
-}
+  &.active {
+    color: #0182f9;
+    padding-bottom: 58px;
+    border-bottom: 5px solid blue;
+  }
 
-header ul a:hover {
-  color: #0182f9;
+  &:hover {
+    color: #0182f9;
+  }
 }
 
 /* Main */
@@ -46,58 +49,59 @@ header ul a:hover {
 
 .shop {
   height: 100%;
-}
 
-.shop a {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-left: 20px;
-}
+  a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+  }
 
-.shop img {
-  width: 60px;
-  height: 75px;
+  img {
+    width: 60px;
+    height: 75px;
+  }
 }
 
 /* Footer */
+
+footer {
+  h4 {
+    color: white;
+    text-transform: uppercase;
+  }
+  ul {
+    padding: 0;
+
+    li a {
+      text-decoration: none;
+      color: rgb(165, 165, 165);
+      font-weight: 200;
+      line-height: 10px;
+      padding: 0;
+    }
+  }
+}
 
 .footerTop {
   background-image: url(/img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
-}
 
-.background {
-  background-image: url(/img/dc-logo-bg.png);
-  background-repeat: no-repeat;
-  transform: scale(1.2);
-  height: 91%;
-}
-
-footer h4 {
-  color: white;
-  text-transform: uppercase;
-}
-
-footer ul {
-  padding: 0;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: rgb(165, 165, 165);
-  font-weight: 200;
-  line-height: 10px;
-  padding: 0;
+  .background {
+    background-image: url(/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    height: 91%;
+  }
 }
 
 .footerBottom {
   background-color: #303030;
   min-height: 100px;
-}
 
-.follow {
-  color: #0182f9;
+  .follow {
+    color: #0182f9;
+  }
 }
