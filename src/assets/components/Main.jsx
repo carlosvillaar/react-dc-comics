@@ -1,17 +1,19 @@
-const Main = () => {
+import Card from "./Card"
+
+const Main = (props) => {
+  
+  const {comics} = props
+
   return (
     <main>
       <div className="jumbo align-content-center">
       </div>
       <section className="gray">
-        <div className="container-md py-5">
+        <div className="container-sm py-5">
           <div className="row">
-            <div className="card-col">
-              <div className="card">
-                <img src="/img/dc-logo.png" alt="" />
-                <h6>titolo</h6>
-              </div>
-            </div>
+              {comics.map(comic => (
+                 <Card key={`cmcs-${comic.id}`} thumb={comic.thumb} title={comic.title} />
+              ))}
           </div>
         </div>
       </section>

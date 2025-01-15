@@ -71,9 +71,9 @@ header ul li a {
   background-size: cover;
 }
 
-.card img {
-  width: 100px;
-  height: 100px;
+.custom-card img {
+  width: 180px;
+  height: 180px;
 }
 
 .card-col {
