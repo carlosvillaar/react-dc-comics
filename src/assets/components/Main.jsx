@@ -1,9 +1,18 @@
 const Main = () => {
   return (
     <main>
-      <section className="gray align-content-center">
-        <div className="container-md">
-          <h2> -- Content goes here -- </h2>
+      <div className="jumbo align-content-center">
+      </div>
+      <section className="gray">
+        <div className="container-md py-5">
+          <div className="row">
+            <div className="card-col">
+              <div className="card">
+                <img src="/img/dc-logo.png" alt="" />
+                <h6>titolo</h6>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section className="blue align-content-center">
