@@ -6,15 +6,19 @@ const Main = (props) => {
 
   return (
     <main>
-      <div className="jumbo align-content-center">
+      <div className="jumbo align-content-center position-relative">
+        <span className="position-absolute label d-flex align-items-center justify-content-center">current series</span>
       </div>
       <section className="gray">
-        <div className="container-sm py-5">
+        <div className="container-sm pt-5">
           <div className="row">
               {comics.map(comic => (
                  <Card key={`cmcs-${comic.id}`} thumb={comic.thumb} title={comic.title} />
               ))}
           </div>
+        </div>
+        <div className="text-center pb-4">
+          <button className="csm-button"><a href="#">Load More</a></button>
         </div>
       </section>
       <section className="blue align-content-center">
