@@ -17,7 +17,7 @@ const Main = (props) => {
               ))}
           </div>
         </div>
-        <div className="text-center pb-4">
+        <div className="text-center pt-5 pb-4">
           <button className="csm-button"><a href="#">Load More</a></button>
         </div>
       </section>
